@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="main-doc">
+      <nav id="navbar">
+        <header>Java Documentation</header>
+        <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#Getting_Started"
+            >Getting Started</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#Language_Basics"
+            >Language Basics</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Object_Oriented_Programming">Object Oriented Programming</a></li>
+        <li>
+          <a class="nav-link" href="#Best_Practices">Best Practices</a>
+        </li>
+      </ul>
+        </nav>
+
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Java is a versatile and widely-used programming language known for its platform independence, strong object-oriented features, and a rich standard library. This documentation provides a comprehensive guide to Java programming.</p>
+        <li>Platform Independence: Java is known for its "Write Once, Run Anywhere" capability, allowing developers to write code that can run on multiple platforms without modification.</li>
+      <li>Object-Oriented Programming (OOP): Java is a pure object-oriented language, emphasizing the use of objects and classes to structure code, which promotes modularity and reusability.</li>
+      <li> Library: Java comes with a comprehensive standard library that offers a wide range of classes and APIs for various tasks, from file I/O to network communication.</li>
+      </section>
+
+      <section class="main-section" id="Getting_Started">
+       <header>Getting Started</header>
+          <article>
+        <p>To begin Java development, you need to install the Java Development Kit (JDK) on your system.</p>
+        <p><code id="hello_world">public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code>
+</p>
+<p>This simple program prints "Hello, World!" to the console.</p>
+      </article>
+      </section>
+
+      <section class="main-section" id="Language_Basics">
+        <header>Language Basics</header>
+        <p>Java supports various data types, including int, double, String, and more. Learn how to declare and use variables.</p>
+        <p><code id="variables">
+int age = 30;
+double price = 19.99;
+String name = "John";
+boolean isJavaFun = true;
+char grade = 'A';
+</code></p>
+        <p>Explore Java's operators, such as +, -, *, /, and logical operators like && and ||.</p>
+      </section>
+
+      <section class="main-section" id="Object_Oriented_Programming">
+        <header>Object Oriented Programming</header>
+        <p>Understand the concept of classes and objects in Java and how to create your own classes.</p>
+        <p><code>class Person {
+    String name;
+    int age;
+
+    void introduce() {
+        System.out.println("Hi, I'm " + name + " and I'm " + age + " years old.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person person1 = new Person();
+        person1.name = "Alice";
+        person1.age = 25;
+        person1.introduce();
+
+        Person person2 = new Person();
+        person2.name = "Bob";
+        person2.age = 30;
+        person2.introduce();
+    }
+}
+</code></p>
+      <p>Polymorphism is one of the four fundamental principles of object-oriented programming, often abbreviated as OOP. It allows objects of different classes to be treated as objects of a common superclass. This concept simplifies code reusability, maintenance, and extensibility. In Java, polymorphism is achieved primarily through method overriding and interfaces.</p>
+      <p><code>class Animal {
+    void makeSound() {
+        System.out.println("The animal makes a sound.");
+    }
+}
+
+class Dog extends Animal {
+    void makeSound() {
+        System.out.println("The dog barks.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal myDog = new Dog(); 
+        myDog.makeSound(); 
+    }
+}
+</code></p>
+        </section>
+
+      <section class="main-section" id="Best_Practices">
+        <header>Best Practices</header>
+          <article>
+        <p>Java has established code conventions to ensure consistency and readability across different projects. Adhering to these conventions can make your code more accessible to other developers. Here are some key code conventions to follow:</p>
+
+<p><li>Naming Conventions: Follow the conventions for variable names, class names, and method names. For example, use camelCase for variable and method names and PascalCase for class names.</li></p>
+
+<p><li>Indentation: Use consistent indentation (usually 4 spaces) to improve code readability.</li></p>
+
+<p><li>Comments: Add clear and concise comments to explain complex logic or provide context. Follow JavaDoc comments for documenting classes and methods.</li></p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html> 

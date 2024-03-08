@@ -1,0 +1,52 @@
+#img-div{
+    padding:10px;
+  }
+  #image{
+    max-width: 100%;
+    height:auto;
+    position: relative;
+    margin: auto;
+  }
+  img{
+    display: block;
+    justify-content: center;
+  }
+  p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font: fantasy;
+  }
+  #img-caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: darkblue;
+  }
+  #tribute-info{
+    color: darkblue;
+  }
+  body{
+    font-family: cursive;
+  }
+  #tribute-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #track-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkblue;
+    font: fantasy;
+    
+  }

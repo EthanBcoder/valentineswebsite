@@ -27,6 +27,7 @@ img {
    display: flex;
    justify-content: center;
    font-family: 'lucida handwriting';
+   font-size: 20px;
  }
  ul{
    font-size: 25px;

@@ -23,6 +23,9 @@ img {
     justify-content: center;
     font-family: 'lucida handwriting';
  }
+ h2{
+   font-family: 'lucida handwriting';
+ }
  p{
    display: flex;
    justify-content: center;

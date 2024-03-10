@@ -46,6 +46,13 @@
         window.addEventListener('beforeunload', function () {
             document.getElementById('myAudio').pause();
         });
+
+        document.body.addEventListener('click', function() {
+     var audio = document.getElementById('myAudio');
+     if (audio.paused) {
+        audio.play();
+  }
+});
         </script>
 </body>
 </html>
